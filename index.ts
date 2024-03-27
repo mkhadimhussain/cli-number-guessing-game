@@ -12,6 +12,9 @@ const randomNumber = Math.floor(Math.random() * 6 + 1);
 // + 1  if we dont want 0 in number so we add 1 with 6 so it will gives numbers between 1-6
 
 // 2) User input for guessing number
+console.log("***************************************");
+console.log("*Welcome to CLI Number Guessing Game*");
+console.log("***************************************\n");
 
 const answer = await inquirer.prompt([
     {

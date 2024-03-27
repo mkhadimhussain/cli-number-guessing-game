@@ -1,13 +1,15 @@
 {
   "name": "khadim-cli-number-guessing-game",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
-  "bin": "index.js",
+  "bin": {
+    "khadim-cli-number-guessing-game": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
